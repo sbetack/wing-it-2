@@ -7,12 +7,17 @@ gem 'pg'
 gem 'sinatra', '~> 1.0'
 gem 'sinatra-contrib'
 
-gem 'activesupport', '~>4.1'
-gem 'activerecord', '~>4.1'
+# Use Thin for our web server
+gem 'thin'
+
+gem 'activesupport'
+gem 'activerecord'
 
 gem 'rake'
+
 gem 'shotgun'
-gem 'faker'
+gem 'pry'
+gem 'bcrypt'
 
 group :test do
   gem 'shoulda-matchers'
