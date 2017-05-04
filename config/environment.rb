@@ -22,6 +22,7 @@ require 'faker'
 require 'json'
 require 'pry'
 require 'bcrypt'
+require 'prime'
 
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
